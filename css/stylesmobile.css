@@ -1,0 +1,41 @@
+.nav-wrapper {
+	background-color: #f1bb99;
+	padding-left: 20px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%; /* Generally set the font-size to 100% in the body - you can then change with em in the other areas */
+	line-height: 1.7em; /* The line-height property in CSS controls the space between lines of text. It is often set in a unitless value (e.g. line-height: 1.4; ) */
+	color: black;
+	font-weight: 900;
+}
+
+.container{
+	width: 90% !important;
+	color: black;
+}
+
+footer {
+	clear: both; /* The clear property specifies which side(s) of an element other floating elements are not allowed. */
+	margin: 0;
+	padding: .5em;
+	color: black;
+	font-variant: small-caps; 
+	font-size: .813em;
+	text-align: center;
+	border-top: 1px dotted #cccccc;
+	
+	/* background-color: #ddd; */
+}
+
+footer.page-footer {
+	background-color: #f1bb99;
+}
+
+
+.page-footer img {
+	 max-width: 50px; 
+	 max-height: 50px;
+	 background-color: black;
+}
